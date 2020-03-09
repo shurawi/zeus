@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Cinzel Decorative";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("//db.onlinewebfonts.com/t/bf4dc48562bad1b356540b66a97e335a.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/bf4dc48562bad1b356540b66a97e335a.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cinzel Decorative Bold";
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+  src: url("//db.onlinewebfonts.com/t/45d6d4cbd2feca951e8c91c2adb88dca.woff") format("woff"),
+       url()url("//db.onlinewebfonts.com/t/45d6d4cbd2feca951e8c91c2adb88dca.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 2000px;
+  font-family: "Cinzel Decorative", "Arial", sans-serif;
+  color: #494848;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+p,h1,h2 {
+  margin: 0;
+  padding: 0;
+}

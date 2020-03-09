@@ -1,0 +1,103 @@
+.promo {
+  position: relative;
+}
+
+.promo__item {
+  margin: 0 auto;
+  position: relative;
+  width: 1550px;
+  height: 846px;
+  color: #ffffff;
+  background-color: #1a1c0f;
+}
+
+.promo__text {
+  padding-left: 215px;
+}
+
+.promo__text {
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 125px;
+  z-index: 1;
+}
+
+.promo__text--quality {
+  position: relative;
+  width: 1278px;
+  height: 451px;
+  background: url("../img/promo-back.png");
+  background-position: -190px -2px;
+  z-index: 3;
+}
+
+.promo__title {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.promo__title--quality {
+  color: #cdb378;
+}
+
+.promo__paragraph {
+  padding-top: 40px;
+  padding-right: 560px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.promo__paragraph--quality {
+  padding-right: 280px;
+  color: #909578;
+}
+
+.promo__link {
+  display: inline-block;
+  margin-top: 56px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #909578;
+  border: 2px solid #404429;
+
+  &:hover {
+    color: #404429;
+    border-color: #909578;
+  }
+}
+
+.promo__inner--sky {
+  position: absolute;
+  top: -40px;
+  right: 16px;
+  width: 501px;
+  height: 538px;
+  background: url("../img/promo-sky.png") no-repeat;
+  z-index: 1;
+}
+
+.promo__inner--beer {
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  width: 150px;
+  height: 593px;
+  background: url("../img/promo-beer.png") no-repeat;
+  z-index: 4;
+}
+
+.promo__item--man {
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 884px;
+  background: url("../img/promo-man.png")  no-repeat;
+}
+
+.promo__title--man {
+  margin-top: 280px;
+  margin-left: 1120px;
+  width: 500px;
+  font-size: 45px;
+  color: #404429;
+}

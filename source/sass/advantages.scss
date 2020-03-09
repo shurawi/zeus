@@ -1,0 +1,68 @@
+.advantages__wrap {
+  position: relative;
+  width: 1550px;
+  height: 2882px;
+  margin: 0 auto;
+  background-color: #1a1c0f;
+  background: url("../img/advantages-back.png") no-repeat;
+  background-position: 0 -1200px;
+}
+
+.advantages__item--quality {
+  width: 700px;
+  padding-top: 140px;
+  padding-left: 215px;
+}
+
+.advantages__item--jouner {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.advantages__item--beer {
+  position: absolute;
+  top: -75px;
+  right: 0;
+  width: 784px;
+  height: 810px;
+  background: url("../img/advantages-beer.png") no-repeat;
+}
+
+.advantages__title {
+  font-size: 40px;
+  line-height: 40px;
+  color: #cdb378;
+}
+
+.advantages__title--quality {
+  padding-bottom: 70px;
+}
+
+.advantages__paragraph {
+  font-size: 18px;
+  line-height: 36px;
+  color: #b4ba98;
+}
+
+.advantages__paragraph--quality {
+  padding-bottom: 60px;
+}
+
+.advantages__paragraph--jouner {
+  padding-top: 30px;
+}
+
+.advantages__link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #909578;
+  border: 2px solid #404429;
+
+  &:hover {
+    color: #404429;
+    border-color: #909578;
+  }
+}
