@@ -26,7 +26,7 @@
   position: relative;
   width: 1278px;
   height: 451px;
-  background: url("../img/promo-back.png");
+  background: url("../img/promo-back.jpg");
   background-position: -190px -2px;
   z-index: 3;
 }
@@ -73,7 +73,8 @@
   right: 16px;
   width: 501px;
   height: 538px;
-  background: url("../img/promo-sky.png") no-repeat;
+  background-color: #16547b;
+  background: url("../img/promo-sky.jpg") no-repeat;
   z-index: 1;
 }
 
@@ -90,8 +91,8 @@
 .promo__item--man {
   margin: 0 auto;
   padding-top: 50px;
-  height: 884px;
-  background: url("../img/promo-man.png")  no-repeat;
+  height: 684px;
+  background: url("../img/promo-man.jpg")  no-repeat;
 }
 
 .promo__title--man {
