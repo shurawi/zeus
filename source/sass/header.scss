@@ -15,6 +15,7 @@
   padding-top: 120px;
   text-decoration: none;
   font-size: 0;
+  transition: 25s;
 
   &:hover::before {
     content: "";
@@ -46,7 +47,7 @@
 	  display: inline-block;
 	  width: 17%;
 	  vertical-align: middle;
-	  border-bottom: 2px solid #ffffff;
+	  border-bottom: 2px solid #cdb378;
   }
 
   &::before {
@@ -71,6 +72,7 @@
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
+  color: #cdb378;
 }
 
 .header__span {
@@ -80,13 +82,18 @@
   font-size: 16px;
   line-height: 30px;
   font-style: italic;
+  color: #cdb378;
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    width: 19px;
-    height: 10px;
-    background: url("../img/icon-arrow.svg") no-repeat;
-    fill: red;
-  }
+.header__span--arrow {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: #cdb378;
+  cursor: pointer;
+   transition: 3s;
+
+   &:hover {
+     color: red;
+   }
 }
