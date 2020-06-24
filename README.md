@@ -1,4 +1,4 @@
-<img width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/zeus/blob/master/source/img/logo-texture.png">
+<img width="153" height="162" alt="Swedish bitter" src="https://github.com/shurawi/zeus/blob/master/source/img/logo-texture.png">
 
 # Promo page Zeus - beer
 
