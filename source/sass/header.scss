@@ -15,7 +15,6 @@
   padding-top: 120px;
   text-decoration: none;
   font-size: 0;
-  transition: 25s;
 
   &:hover::before {
     content: "";
@@ -24,6 +23,7 @@
     width: 153px;
     height: 162px;
     background: url("../img/logo-texture.png") no-repeat;
+    transition: transform 0.6s ease-out;
     opacity: 0.8;
   }
 }
@@ -83,6 +83,12 @@
   line-height: 30px;
   font-style: italic;
   color: #cdb378;
+
+
+  &:hover {
+    color: red;
+    transition: 3s;
+  }
 }
 
 .header__span--arrow {
